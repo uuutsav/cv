@@ -1,0 +1,24 @@
+body {
+    background-color: #97FEED;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    border-color: #0B666A;
+    height: 0px;
+    width: 10%;
+}
+
+h3 {
+    color: #97FEED;
+}
+
+td {
+    border-radius: 23%;
+}
+
+#dp {
+    border-radius: 50%;
+}
