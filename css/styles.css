@@ -224,3 +224,14 @@ a:hover {
 .skill-1-link {
     text-align: left;
 }
+
+.list-end {
+    color: black;
+    list-style-position: outside;
+    list-style-type: disc;
+    padding-left: 0;
+}
+
+.list-end li {
+    margin-left: 20px;
+}
