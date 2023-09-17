@@ -9,11 +9,13 @@ h1 {
     font-family: 'Sacramento', serif;
     font-size: 4rem;
 }
+
 h2 {
     color: #66BFBF;
     margin: 0px;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
+
 h3 {
     color: #11999E;
     font-size: 1.1rem;
@@ -25,7 +27,6 @@ hr {
     width: 3rem;
     margin: 4rem auto;
     border-bottom: none;
-
 }
 
 p {
@@ -37,7 +38,7 @@ p {
 body {
     margin: 0;
     text-align: center;
-    font-family: 'Playfair Display',serif;
+    font-family: 'Playfair Display', serif;
 }
 
 a {
@@ -45,6 +46,7 @@ a {
     margin: 1rem;
     text-decoration: none;
 }
+
 a:hover {
     color: rgb(242, 242, 255);
     text-decoration: underline;
@@ -53,7 +55,7 @@ a:hover {
 /*** Class selectors **/
 
 .top-container {
-    display:inline-block;
+    display: inline-block;
     width: 600px;
     height: 100vh;
     margin: auto;
@@ -61,6 +63,7 @@ a:hover {
     padding-top: 50px;
     margin: 0;
 }
+
 .container {
     position: relative;
     margin: 0;
@@ -109,7 +112,7 @@ a:hover {
 
 .intro {
     margin: 0px auto;
-    width: 50%;
+    width: 59%;
 }
 
 .img_skill {
@@ -144,6 +147,10 @@ a:hover {
     text-align: right;
 }
 
+.skill-list {
+    margin: 1rem 0;
+}
+
 .para-skill {
     text-align: left;
 }
@@ -176,9 +183,9 @@ a:hover {
     font-size: 20px;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
-  }
-  
-  .btn:hover {
+}
+
+.btn:hover {
     background: #30E3CB;
     background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
     background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
@@ -186,16 +193,34 @@ a:hover {
     background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
     background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
     text-decoration: none;
-  }
+}
 
 
-  /* Skills Section  */
+/* Skills Section  */
 
-  .skills {
+.skills {
     background-color: #EAF6F6;
+    padding: 8vh 0;
+}
 
-  }
+.skill-section {
+    margin: 0 auto;
+    width: 75%;
+}
 
-  .skill-1-link {
+.skill-section a {
+    color: #11999E;
+    text-decoration: none;
+    margin: 0;
+}
+
+
+.skill-section a:hover {
+    color: #05aab0;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.skill-1-link {
     text-align: left;
-  }
+}
