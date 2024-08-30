@@ -11,7 +11,8 @@
 <body>
     <div class="nav flex justify-between items-center h-[15vh] p-8 text-3xl ">
         <div class="name text-center text-4xl ">Kumar Utsav</div>
-        <div class="hamburgerMenu"><i class="fa-solid fa-bars duration-150 cursor-pointer hover:scale-110 hover:duration-150"></i></div>
+        <div class="hamburgerMenu"><i
+                class="fa-solid fa-bars duration-150 cursor-pointer hover:scale-110 hover:duration-150"></i></div>
     </div>
     <section id="hero" class="h-[85vh] ">
         <div class="hero flex flex-col gap-5">
@@ -24,33 +25,67 @@
             <h1 class="text-5xl text-center font-mono">Kumar Utsav</h1>
             <h2 class="text-4xl text-center">Full Stack Developer</h2>
             <div class="buttons flex justify-center">
-                <div class="downloadCV text-2xl m-3 px-6 py-5 border-2 cursor-pointer border-slate-800 rounded-full duration-150 hover:scale-110 hover:transition-all hover:duration-150">Download CV</div>
-                <div class="contactInfo text-2xl m-3 px-6 py-5 border-2 cursor-pointer text-white bg-slate-800 rounded-full duration-150 hover:scale-110 hover:transition-all hover:duration-150">Contact Info</div>
+                <div
+                    class="downloadCV text-2xl m-3 px-6 py-5 border-2 cursor-pointer border-slate-800 rounded-full duration-150 hover:scale-110 hover:transition-all hover:duration-150">
+                    Download CV</div>
+                <div
+                    class="contactInfo text-2xl m-3 px-6 py-5 border-2 cursor-pointer text-white bg-slate-800 rounded-full duration-150 hover:scale-110 hover:transition-all hover:duration-150">
+                    Contact Info</div>
             </div>
             <div class="socials flex justify-center">
-                <i class="fa-brands fa-linkedin text-5xl mx-3 cursor-pointer duration-150 hover:scale-110 hover:duration-150"></i>
-                <i class="fa-brands fa-twitter text-5xl mx-3 cursor-pointer duration-150 hover:scale-110 hover:duration-150"></i>
-                <i class="fa-brands fa-github text-5xl mx-3 cursor-pointer duration-150 hover:scale-110 hover:duration-150"></i>
+                <i
+                    class="fa-brands fa-linkedin text-5xl mx-3 cursor-pointer duration-150 hover:scale-110 hover:duration-150"></i>
+                <i
+                    class="fa-brands fa-twitter text-5xl mx-3 cursor-pointer duration-150 hover:scale-110 hover:duration-150"></i>
+                <i
+                    class="fa-brands fa-github text-5xl mx-3 cursor-pointer duration-150 hover:scale-110 hover:duration-150"></i>
             </div>
         </div>
     </section>
     <section id="aboutMe" class="p-5 h-[100vh] flex flex-col items-center justify-evenly">
-            <h1 class="text-5xl text-center font-mono">About Me</h1>
-            <div class="image-container h-[55vw] w-[50vw] overflow-hidden rounded-3xl ">
-                <img src="/public/DP_Sem6.png" alt="Second Image" class="h-[100%] w-full object-cover">
+        <h1 class="text-5xl text-center font-mono">About Me</h1>
+        <div class="image-container h-[55vw] w-[50vw] overflow-hidden rounded-3xl ">
+            <img src="/public/DP_Sem6.png" alt="Second Image" class="h-[100%] w-full object-cover">
+        </div>
+        <div class="exp-container w-[85vw] p-5 flex flex-col items-center border-2 border-gray-400 rounded-3xl ">
+            <i class="fa-solid fa-ribbon text-4xl mt-3"></i>
+            <h3 class="text-3xl font-semibold mt-3">Experience</h3>
+            <h4 class="text-2xl mt-3">5+ Projects (Fresher)</h4>
+            <h4 class="text-2xl "><span class="highlighted-text text-blue-400 font-semibold">Full Stack</span> Web
+                Development</h4>
+        </div>
+        <div class="edu-container w-[85vw] p-5 flex flex-col items-center border-2 border-gray-400 rounded-3xl ">
+            <i class="fa-solid fa-ribbon text-4xl mt-3"></i>
+            <h3 class="text-3xl font-semibold mt-3">Education</h3>
+            <h4 class="text-2xl mt-3">B.Tech. in Computer Sc. and Engg.</h4>
+            <h4 class="text-2xl ">KIIT Bhubaneswar, Odisha, <span
+                    class="highlighted-text text-blue-400 font-semibold">India</span></h4>
+        </div>
+    </section>
+    <section id="projects" class="p-5 h-[100vh] flex flex-col items-center ">
+        <h1 class="text-5xl text-center font-mono h-[10vh] ">Projects</h1>
+
+        <div class="exp-container w-[85vw] p-5 flex flex-col items-center border-2 border-gray-400 rounded-3xl group">
+            <div class="image-container rounded-xl overflow-hidden">
+                <img src="public/temp-projects.png" alt="Project Screenshot" class="transition-all duration-500 hover:scale-110 ">
             </div>
-            <div class="exp-container w-[85vw] p-5 flex flex-col items-center border-2 border-gray-400 rounded-3xl ">
-                <i class="fa-solid fa-ribbon text-4xl mt-3"></i>
-                <h3 class="text-3xl font-semibold mt-3">Experience</h3>
-                <h4 class="text-2xl mt-3">5+ Projects (Fresher)</h4>
-                <h4 class="text-2xl "><span class="highlighted-text text-blue-400 font-semibold">Full Stack</span> Web Development</h4>
+            <div class="links w-full h-0 mt-3 overflow-hidden group-hover:h-10 flex justify-evenly text-blue-500 duration-500 ">
+                <a href="#" class="text-2xl flex items-center gap-3 transition-all duration-100 hover:scale-110 hover:duration-150 ">Visit <i class="fa-solid fa-up-right-from-square text-base"></i> </a>
+                <a href="#" class="text-2xl flex items-center gap-3 transition-all duration-100 hover:scale-110 hover:duration-150 ">Github <i class="fa-solid fa-link text-base"></i></a>
             </div>
-            <div class="edu-container w-[85vw] p-5 flex flex-col items-center border-2 border-gray-400 rounded-3xl ">
-                <i class="fa-solid fa-ribbon text-4xl mt-3"></i>
-                <h3 class="text-3xl font-semibold mt-3">Education</h3>
-                <h4 class="text-2xl mt-3">B.Tech. in Computer Sc. and Engg.</h4>
-                <h4 class="text-2xl ">KIIT Bhubaneswar, Odisha, <span class="highlighted-text text-blue-400 font-semibold">India</span></h4>
+            <div class="about w-full">
+                <h3 class="text-2xl font-semibold mt-3">Speech Buddy</h3>
+                <h4 class="text-xl mt-1">Full Stack - MERN</h4>
+                <div class="text-base text-gray-500 "> 
+                    <ul class="list-disc list-inside " >
+                        <li>Web app to practice & improve spoken English.</li>
+                        <li>Participated in QubitX Hack by YCW hackathon, showcasing innovative language learning solutions..</li>
+                    </ul>
+                </div>
             </div>
+
+        </div>
+
     </section>
 
     <script src="https://kit.fontawesome.com/3f688f1865.js" crossorigin="anonymous"></script>
