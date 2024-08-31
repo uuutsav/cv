@@ -23,7 +23,8 @@
                     href="#about">Projects</a></div>
             <div
                 class="contact cursor-pointer p-2 px-3 border-2 border-black bg-black text-white rounded-full duration-150 hover:bg-blue-500 hover:text-black hover:scale-110">
-                <a href="#about">Contact</a></div>
+                <a href="#about">Contact</a>
+            </div>
         </div>
     </div>
     <section id="hero" class="h-[85vh] md:px-[10vw] hero flex flex-col gap-5 justify-center md:flex-row ">
@@ -70,25 +71,43 @@
         </div>
 
     </section>
-    <section id="aboutMe" class="p-5 h-[100vh] flex flex-col items-center justify-evenly">
+    <section id="aboutMe" class="h-[100vh] p-5 md:px-[10vw]">
         <h1 class="text-5xl text-center font-mono">About Me</h1>
-        <div class="image-container h-[55vw] w-[50vw] overflow-hidden rounded-3xl border-2 border-slate-800">
-            <img src="/public/DP_Sem6.png" alt="Second Image" class="h-[100%] w-full object-cover">
+        <div class="div h-full flex flex-col items-center justify-evenly md:flex-row">
+            <div class="image-container h-[55vw] w-[50vw] overflow-hidden rounded-3xl border-2 border-slate-800 md:w-1/3 md:h-[50vh]">
+                <img src="/public/DP_Sem6.png" alt="Second Image" class="h-[100%] w-full object-cover">
+            </div>
+            <div class="div flex flex-col md:w-2/3 md:h-[50vh] md:justify-center">
+                <div class="div flex flex-col gap-3 md:flex-row md:px-10 ">
+                    <div
+                        class="exp-container w-[85vw] p-3 flex flex-col items-center border-2 border-gray-400 rounded-3xl md:py-8">
+                        <i class="fa-solid fa-ribbon text-3xl mt-3"></i>
+                        <h3 class="text-2xl font-semibold mt-3">Experience</h3>
+                        <h4 class="text-xl mt-3">5+ Projects (Fresher)</h4>
+                        <h4 class="text-xl "><span class="highlighted-text text-blue-400 font-semibold">Full Stack</span> Web Development</h4>
+                    </div>
+                    <div
+                        class="edu-container w-[85vw] p-3 flex flex-col items-center border-2 border-gray-400 rounded-3xl md:py-8">
+                        <i class="fa-solid fa-ribbon text-3xl mt-3"></i>
+                        <h3 class="text-2xl font-semibold mt-3">Education</h3>
+                        <h4 class="text-xl mt-3">B.Tech. in Computer Sc. and Engg.</h4>
+                        <h4 class="text-xl ">KIIT Bhubaneswar, Odisha, <span
+                                class="highlighted-text text-blue-400 font-semibold">India</span></h4>
+                    </div>
+                </div>
+                <div class="description hidden md:block p-10 h-1/2 text-gray-600">
+                    As a final-year B.Tech CSE student, I've honed my skills in the MERN
+                    stack (MongoDB, Express.js, React.js, and Node.js), building several personal projects like Chat
+                    App(Socket.io), Speech Buddy, Todo App. This experience has given me a strong foundation in
+                    full-stack development, allowing me to comfortably navigate both front-end and back-end aspects.
+<br><br>
+                    Beyond technical skills, I'm a fast learner with a genuine interest in staying updated on the latest
+                    web development trends. I'm proficient in MERN Stack, Git/GitHub version controlling and eager to
+                    delve deeper into your company's specific tech stack.
+                </div>
+            </div>
         </div>
-        <div class="exp-container w-[85vw] p-3 flex flex-col items-center border-2 border-gray-400 rounded-3xl ">
-            <i class="fa-solid fa-ribbon text-4xl mt-3"></i>
-            <h3 class="text-3xl font-semibold mt-3">Experience</h3>
-            <h4 class="text-xl mt-3">5+ Projects (Fresher)</h4>
-            <h4 class="text-xl "><span class="highlighted-text text-blue-400 font-semibold">Full Stack</span> Web
-                Development</h4>
-        </div>
-        <div class="edu-container w-[85vw] p-3 flex flex-col items-center border-2 border-gray-400 rounded-3xl ">
-            <i class="fa-solid fa-ribbon text-4xl mt-3"></i>
-            <h3 class="text-3xl font-semibold mt-3">Education</h3>
-            <h4 class="text-xl mt-3">B.Tech. in Computer Sc. and Engg.</h4>
-            <h4 class="text-xl ">KIIT Bhubaneswar, Odisha, <span
-                    class="highlighted-text text-blue-400 font-semibold">India</span></h4>
-        </div>
+
     </section>
     <section id="projects" class="p-5 h-[100vh] flex flex-col items-center ">
         <h1 class="text-5xl text-center font-mono h-[10vh] ">Projects</h1>
