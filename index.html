@@ -71,7 +71,7 @@
         </div>
 
     </section>
-    <section id="about" class="h-[100vh] p-5 md:px-[10vw]">
+    <section id="about" class="min-h-[100vh] p-5 md:px-[10vw]">
         <h4 class="text-sm text-gray-500 m-3 text-center">Get to know more</h4>
         <h1 class="text-5xl text-center font-mono">About Me</h1>
         <div class="div h-full flex flex-col items-center justify-evenly md:flex-row">
@@ -80,33 +80,50 @@
                 <img src="public/DP_Sem6.png" alt="Second Image" class="h-[100%] w-full object-cover">
             </div>
             <div class="div flex flex-col md:w-2/3 md:h-[50vh] md:justify-center">
-                <div class="div flex flex-col gap-3 md:flex-row md:px-10 ">
+                <div class="div flex flex-col gap-5 md:flex-row md:px-10 ">
                     <div
-                        class="exp-container w-[85vw] p-3 flex flex-col items-center border-2 border-gray-400 rounded-3xl md:py-8">
-                        <i class="fa-solid fa-ribbon text-3xl mt-3"></i>
-                        <h3 class="text-2xl font-semibold mt-3">Experience</h3>
-                        <h4 class="text-xl mt-3">5+ Projects (Fresher)</h4>
-                        <h4 class="text-xl "><span class="highlighted-text text-blue-400 font-semibold">Full
-                                Stack</span> Web Development</h4>
+                        class="exp-container w-full p-3 flex flex-col gap-8 items-center border-2 border-gray-400 rounded-3xl md:py-8">
+                        <div class="">
+                            <div class="flex justify-center">
+                                <i class="fa-solid fa-ribbon text-3xl"></i>
+                            </div>
+                            <h3 class="text-3xl font-semibold mt-3">Experience</h3>
+                        </div>
+
+                        <div class="w-full px-3">
+                            <h3 class="text-2xl">Packaged App Development Associate</h3>
+                            <a href="https://www.linkedin.com/company/accentureindia/"
+                                class="text-lg text-blue-500 ">Accenture</a>
+                            <h4 class="text-lg ">Feb 2025 - Current</h4>
+                        </div>
+                        <div class="w-full px-3">
+                            <h3 class="text-2xl">SDE Intern</h3>
+                            <a href="https://www.bluoryn.com/" class="text-lg text-blue-500">BluOryn Technologies Pvt.
+                                Ltd.</a>
+                            <h4 class="text-lg ">Dec 2024 - Mar 2025</h4>
+                        </div>
                     </div>
                     <div
-                        class="edu-container w-[85vw] p-3 flex flex-col items-center border-2 border-gray-400 rounded-3xl md:py-8">
-                        <i class="fa-solid fa-ribbon text-3xl mt-3"></i>
-                        <h3 class="text-2xl font-semibold mt-3">Education</h3>
-                        <h4 class="text-xl mt-3">B.Tech. in Computer Sc. and Engg.</h4>
-                        <h4 class="text-xl ">KIIT Bhubaneswar, Odisha, <span
-                                class="highlighted-text text-blue-400 font-semibold">India</span></h4>
+                        class="edu-container w-full p-3 flex flex-col gap-8 items-center border-2 border-gray-400 rounded-3xl md:py-8">
+                        <div class="">
+                            <div class="flex justify-center">
+                                <i class="fa-solid fa-ribbon text-3xl mt-3"></i>
+                            </div>
+                            <h3 class="text-3xl font-semibold mt-3">Education</h3>
+                        </div>
+                        
+                        <div class="w-full px-3">
+                            <h3 class="text-2xl">Bachelor of Technology in CSE </h3>
+                            <a href="https://kiit.ac.in/" class="text-lg ">Kalinga Institute of Industrial Technology
+                                (KIIT)</a>
+                            <h4 class="text-lg ">8.58 CGPA</h4>
+                        </div>
+                        <div class="w-full px-3">
+                            <h3 class="text-2xl">12th, PCM + Computer Sc. </h3>
+                            <a href="https://www.dpsranchi.com/" class="text-lg ">DPS Ranchi</a>
+                            <h4 class="text-lg ">94.5 %</h4>
+                        </div>
                     </div>
-                </div>
-                <div class="description hidden md:block p-10 h-1/2 text-gray-600">
-                    As a final-year B.Tech CSE student, I've honed my skills in the MERN
-                    stack (MongoDB, Express.js, React.js, and Node.js), building several personal projects like Chat
-                    App(Socket.io), Speech Buddy, Todo App. This experience has given me a strong foundation in
-                    full-stack development, allowing me to comfortably navigate both front-end and back-end aspects.
-                    <br><br>
-                    Beyond technical skills, I'm a fast learner with a genuine interest in staying updated on the latest
-                    web development trends. I'm proficient in MERN Stack, Git/GitHub version controlling and eager to
-                    delve deeper into your company's specific tech stack.
                 </div>
             </div>
         </div>
@@ -151,7 +168,7 @@
                 </div>
                 <div
                     class="links w-full h-0 mt-3 overflow-hidden group-hover:h-10 flex justify-evenly text-blue-500 duration-500 ">
-                    <a href="#projects" 
+                    <a href="#projects"
                         class="text-2xl flex items-center gap-3 transition-all duration-100 hover:scale-110 hover:duration-150 ">Visit
                         <i class="fa-solid fa-up-right-from-square text-base"></i> </a>
                     <a href="https://github.com/uuutsav/doubt-solver2-client" target="_blank"
